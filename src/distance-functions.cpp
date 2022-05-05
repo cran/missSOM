@@ -11,6 +11,7 @@
 #include <Rinternals.h>
 #include <Rmath.h>
 #include <Rcpp.h>
+#include <cfloat>
 
 #define UNIF unif_rand()
 
@@ -121,7 +122,7 @@ void FindBestMatchingUnit(
   double dist;
 
   index = NA_INTEGER;
-  distance = DOUBLE_XMAX;
+  distance = DBL_MAX;
   for (int cd = 0; cd < numCodes; ++cd) {
 
     /* Calculate current unit distance */
@@ -147,7 +148,7 @@ void FindBestMatchingUnit(
     }
   }
   
-  if (distance == DOUBLE_XMAX) {
+  if (distance == DBL_MAX) {
     distance = NA_REAL;
     index = NA_INTEGER;
   }

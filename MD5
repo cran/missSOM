@@ -1,4 +1,4 @@
-bdd86096e5001b999783f7f22c3b8def *DESCRIPTION
+ed00d1d375fd68c810e7c15834ea385f *DESCRIPTION
 e8c33d84ba8be4b02032d75c64c1a25c *NAMESPACE
 62d34e3e25b609db58ac190a03137cc8 *R/RcppExports.R
 6498e94316a20e10e4e7076d57c1ddb1 *R/check.data.R
@@ -19,7 +19,7 @@ fd79dcb9c53bc6a6e8624cc34ec3fb88 *data/datalist
 67094ceb2dc39ecbd36f1fb09cae08ff *data/nir.rda
 e7f2aacabce4059ba3d5bbe8a8a1bd5f *data/wines.rda
 310ac373cfce025f816ddcbc010b18a4 *data/yeast.rda
-bc78bb1f2a160d82a36cfa7f83e19a5a *inst/CITATION
+25e381597335f3bdd5ebbe972da0a198 *inst/CITATION
 10ca6b877856c12125207741b0978c2d *inst/Distances/BC.cpp
 80c2dd7a7f1de382e3a6cd4f1304df6a *inst/Distances/wcc.cpp
 378d5a975731c05a3d94fe88c4f71eb6 *man/imputeSOM.Rd
@@ -34,9 +34,9 @@ c5ac2cc47c35309b5841c021016c622f *man/unit.distances.Rd
 76d194ed5d249ef71ed07a0b74c375c5 *man/wines.Rd
 828051a782807cb516f161aad0040294 *man/yeast.Rd
 e2d347f9ad519d45dd6bcf3703472671 *src/Makevars
-a4840b2841f2306a03ab70b7cee83d59 *src/RcppExports.cpp
-3001fa1e379cc3b329bc3b5fd1de9a24 *src/distance-functions.cpp
-620f618da8e37470886dc62f23e4ef94 *src/distance-functions.h
+bbbfbc4ce1b7464adace13dd580c00dc *src/RcppExports.cpp
+c648e8030826c85d2f505a2df416480b *src/distance-functions.cpp
+34cd0608e1940ee76e84fde5aafaaa04 *src/distance-functions.h
 c4ebd0a0c64688a93466f54e4759adad *src/imputeSOM.cpp
 be83662d9c4904c2a9b7197bdf87f830 *src/map.cpp
 290c90cde932a6abf642dd9aca266650 *src/missSOM.h
